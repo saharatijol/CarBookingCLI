@@ -41,7 +41,7 @@ public class Main {
                 System.out.println("You've chosen to exit the Car Booking System.");
                 System.out.println("Thank you. Good bye!");
             }
-            
+
             default -> {
                 System.out.println("You chose an invalid option. Try again");
                 displayMenu();
