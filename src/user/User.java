@@ -5,9 +5,11 @@ import cars.Car;
 import java.time.LocalDate;
 import java.util.Arrays;
 import java.util.Objects;
+import java.util.UUID;
 
 public class User {
 
+    private UUID userId;
     private String firstName;
     private String lastName;
     private Gender gender;
@@ -158,4 +160,5 @@ public class User {
         result = 31 * result + Arrays.hashCode(cars);
         return result;
     }
+
 }
